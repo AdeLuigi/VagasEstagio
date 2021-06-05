@@ -27,7 +27,7 @@ routes.post('/cadastro', async (request, response) => {
     return response.json(cadastrado);
 });
 
-routes.get('/login', async (request, response) => {
+routes.post('/login', async (request, response) => {
 
     const {email, password} = request.body;
 
