@@ -12,7 +12,9 @@
     "mongoose": "^5.12.13"
   },
   "scripts": {
-    "dev": "nodemon index.js localhost 3333"
+    "dev": "nodemon index.js localhost 3333",
+    "start": "node index.js"
+
   },
   "devDependencies": {
     "nodemon": "^2.0.7"
