@@ -1,0 +1,17 @@
+{
+  "name": "VagasEstagio",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/AdeLuigi/VagasEstagio.git",
+  "author": "adeluigi <ademario63@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.17.1"
+  },
+  "scripts": {
+    "dev": "nodemon index.js localhost 3333"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.7"
+  }
+}
