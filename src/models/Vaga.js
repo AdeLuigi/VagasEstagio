@@ -1,7 +1,7 @@
 const mongoose = require('mongoose');
 
 const Vaga = new mongoose.Schema({
-    Title: String,
+    title: String,
     description: String,
     city: String,
     district:String,
